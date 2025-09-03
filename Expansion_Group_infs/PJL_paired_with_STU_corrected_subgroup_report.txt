@@ -1,0 +1,58 @@
+=== DNA Position Grouping Analysis Report ===
+
+Total number of groups: 3
+Total number of samples: 64
+Number of super-groups (created by distance-based merging): 0
+
+EXPANSION CRITERION: Combination frequency >= MAX(individual position frequencies)
+This means the most common sequence in a group must be at least as frequent
+as the most frequent genotype among all individual positions in the group.
+
+Group 1: ['1_219703923', '1_219705690']
+Chromosome: 1
+Number of positions: 2
+Genomic span: 1,767 bp (0.00 Mb)
+Combination frequency: 56.2%
+Max individual position frequency: 56.2%
+Criterion satisfied: 56.2% >= 56.2% = True
+56.2% (36 out of 64) of samples have the same sequence in group 1
+Number of different combinations in group 1: 3
+Top 3 most common genotype combinations for group 1:
+  1. [1,1] - 36 samples (56.2%)
+  2. [0,0] - 21 samples (32.8%)
+  3. [2,2] - 7 samples (10.9%)
+
+================================================================================
+
+Group 2: ['9_22124473']
+Chromosome: 9
+Number of positions: 1
+Genomic span: 0 bp (0.00 Mb)
+Combination frequency: 45.3%
+Max individual position frequency: 45.3%
+Criterion satisfied: 45.3% >= 45.3% = True
+45.3% (29 out of 64) of samples have the same sequence in group 2
+Number of different combinations in group 2: 3
+Top 3 most common genotype combinations for group 2:
+  1. [1] - 29 samples (45.3%)
+  2. [2] - 20 samples (31.2%)
+  3. [0] - 15 samples (23.4%)
+
+================================================================================
+
+Group 3: ['10_93263385', '10_93263606', '10_93263976', '10_93264644', '10_93265393', '10_93265650', '10_93266059', '10_93266144', '10_93266222', '10_93266249', '10_93266266', '10_93266291', '10_93266353', '10_93266743', '10_93266815', '10_93267026', '10_93267079', '10_93267193', '10_93267441', '10_93267461', '10_93267735', '10_93268308', '10_93268312', '10_93268342', '10_93268404', '10_93268490', '10_93268621', '10_93268709', '10_93269036', '10_93269230', '10_93269310', '10_93269365', '10_93269567', '10_93269684', '10_93269935', '10_93270413', '10_93270493', '10_93270696', '10_93270898', '10_93270932', '10_93270999', '10_93271004', '10_93271181', '10_93271253', '10_93271305', '10_93271468', '10_93271675']
+Chromosome: 10
+Number of positions: 47
+Genomic span: 8,290 bp (0.01 Mb)
+Combination frequency: 53.1%
+Max individual position frequency: 53.1%
+Criterion satisfied: 53.1% >= 53.1% = True
+53.1% (34 out of 64) of samples have the same sequence in group 3
+Number of different combinations in group 3: 3
+Top 3 most common genotype combinations for group 3:
+  1. [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0] - 34 samples (53.1%)
+  2. [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1] - 17 samples (26.6%)
+  3. [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2] - 13 samples (20.3%)
+
+================================================================================
+

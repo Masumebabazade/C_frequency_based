@@ -1,0 +1,16 @@
+# C build artifacts
+*.o
+*.so
+*.a
+*.out
+*.exe
+# build directories
+build/
+bin/
+obj/
+# temp, editors
+*~
+*.log
+.DS_Store
+.vscode/
+.idea/

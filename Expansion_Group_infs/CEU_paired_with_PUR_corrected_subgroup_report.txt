@@ -1,0 +1,424 @@
+=== DNA Position Grouping Analysis Report ===
+
+Total number of groups: 26
+Total number of samples: 66
+Number of super-groups (created by distance-based merging): 1
+
+EXPANSION CRITERION: Combination frequency >= MAX(individual position frequencies)
+This means the most common sequence in a group must be at least as frequent
+as the most frequent genotype among all individual positions in the group.
+
+Group 1: ['1_64585440']
+Chromosome: 1
+Number of positions: 1
+Genomic span: 0 bp (0.00 Mb)
+Combination frequency: 69.7%
+Max individual position frequency: 69.7%
+Criterion satisfied: 69.7% >= 69.7% = True
+69.7% (46 out of 66) of samples have the same sequence in group 1
+Number of different combinations in group 1: 3
+Top 3 most common genotype combinations for group 1:
+  1. [0] - 46 samples (69.7%)
+  2. [1] - 17 samples (25.8%)
+  3. [2] - 3 samples (4.5%)
+
+================================================================================
+
+Group 2: ['1_236772526']
+Chromosome: 1
+Number of positions: 1
+Genomic span: 0 bp (0.00 Mb)
+Combination frequency: 60.6%
+Max individual position frequency: 60.6%
+Criterion satisfied: 60.6% >= 60.6% = True
+60.6% (40 out of 66) of samples have the same sequence in group 2
+Number of different combinations in group 2: 3
+Top 3 most common genotype combinations for group 2:
+  1. [2] - 40 samples (60.6%)
+  2. [1] - 20 samples (30.3%)
+  3. [0] - 6 samples (9.1%)
+
+================================================================================
+
+Group 3: ['2_38209827', '2_38209882']
+Chromosome: 2
+Number of positions: 2
+Genomic span: 55 bp (0.00 Mb)
+Combination frequency: 65.2%
+Max individual position frequency: 65.2%
+Criterion satisfied: 65.2% >= 65.2% = True
+65.2% (43 out of 66) of samples have the same sequence in group 3
+Number of different combinations in group 3: 3
+Top 3 most common genotype combinations for group 3:
+  1. [0,0] - 43 samples (65.2%)
+  2. [1,1] - 19 samples (28.8%)
+  3. [2,2] - 4 samples (6.1%)
+
+================================================================================
+
+Group 4: ['2_38223994']
+Chromosome: 2
+Number of positions: 1
+Genomic span: 0 bp (0.00 Mb)
+Combination frequency: 63.6%
+Max individual position frequency: 63.6%
+Criterion satisfied: 63.6% >= 63.6% = True
+63.6% (42 out of 66) of samples have the same sequence in group 4
+Number of different combinations in group 4: 3
+Top 3 most common genotype combinations for group 4:
+  1. [0] - 42 samples (63.6%)
+  2. [1] - 19 samples (28.8%)
+  3. [2] - 5 samples (7.6%)
+
+================================================================================
+
+Group 5: ['3_21335846']
+Chromosome: 3
+Number of positions: 1
+Genomic span: 0 bp (0.00 Mb)
+Combination frequency: 68.2%
+Max individual position frequency: 68.2%
+Criterion satisfied: 68.2% >= 68.2% = True
+68.2% (45 out of 66) of samples have the same sequence in group 5
+Number of different combinations in group 5: 3
+Top 3 most common genotype combinations for group 5:
+  1. [0] - 45 samples (68.2%)
+  2. [1] - 19 samples (28.8%)
+  3. [2] - 2 samples (3.0%)
+
+================================================================================
+
+Group 6: ['4_25787698', '4_25791436']
+Chromosome: 4
+Number of positions: 2
+Genomic span: 3,738 bp (0.00 Mb)
+Combination frequency: 45.5%
+Max individual position frequency: 45.5%
+Criterion satisfied: 45.5% >= 45.5% = True
+45.5% (30 out of 66) of samples have the same sequence in group 6
+Number of different combinations in group 6: 3
+Top 3 most common genotype combinations for group 6:
+  1. [1,1] - 30 samples (45.5%)
+  2. [0,0] - 28 samples (42.4%)
+  3. [2,2] - 8 samples (12.1%)
+
+================================================================================
+
+Group 7: ['4_64777951', '4_64784527', '4_64785802', '4_64786150', '4_64788133', '4_64789850', '4_64792039']
+Chromosome: 4
+Number of positions: 7
+Genomic span: 14,088 bp (0.01 Mb)
+Combination frequency: 50.0%
+Max individual position frequency: 50.0%
+Criterion satisfied: 50.0% >= 50.0% = True
+50.0% (33 out of 66) of samples have the same sequence in group 7
+Number of different combinations in group 7: 3
+Top 3 most common genotype combinations for group 7:
+  1. [0,0,0,0,0,0,0] - 33 samples (50.0%)
+  2. [1,1,1,1,1,1,1] - 24 samples (36.4%)
+  3. [2,2,2,2,2,2,2] - 9 samples (13.6%)
+
+================================================================================
+
+Group 8: ['5_129483902', '5_129484551', '5_129487014', '5_129488662', '5_129493883', '5_129499195', '5_129500199', '5_129500422', '5_129509145', '5_129510877', '5_129520453', '5_129521024', '5_129536778', '5_129537652']
+Chromosome: 5
+Number of positions: 14
+Genomic span: 53,750 bp (0.05 Mb)
+Combination frequency: 95.5%
+Max individual position frequency: 95.5%
+Criterion satisfied: 95.5% >= 95.5% = True
+95.5% (63 out of 66) of samples have the same sequence in group 8
+Number of different combinations in group 8: 2
+Top 3 most common genotype combinations for group 8:
+  1. [0,0,0,0,0,0,0,0,0,0,0,0,0,0] - 63 samples (95.5%)
+  2. [1,1,1,1,1,1,1,1,1,1,1,1,1,1] - 3 samples (4.5%)
+
+================================================================================
+
+Group 9: ['5_164118696']
+Chromosome: 5
+Number of positions: 1
+Genomic span: 0 bp (0.00 Mb)
+Combination frequency: 36.4%
+Max individual position frequency: 36.4%
+Criterion satisfied: 36.4% >= 36.4% = True
+36.4% (24 out of 66) of samples have the same sequence in group 9
+Number of different combinations in group 9: 3
+Top 3 most common genotype combinations for group 9:
+  1. [1] - 24 samples (36.4%)
+  2. [2] - 22 samples (33.3%)
+  3. [0] - 20 samples (30.3%)
+
+================================================================================
+
+Group 10: ['7_86604505']
+Chromosome: 7
+Number of positions: 1
+Genomic span: 0 bp (0.00 Mb)
+Combination frequency: 53.0%
+Max individual position frequency: 53.0%
+Criterion satisfied: 53.0% >= 53.0% = True
+53.0% (35 out of 66) of samples have the same sequence in group 10
+Number of different combinations in group 10: 3
+Top 3 most common genotype combinations for group 10:
+  1. [1] - 35 samples (53.0%)
+  2. [2] - 25 samples (37.9%)
+  3. [0] - 6 samples (9.1%)
+
+================================================================================
+
+Super-Group 11: ['7_132894934', '7_132930189', '7_132952819', '7_132956521', '7_132975729', '7_132978665', '7_132979250', '7_132979997', '7_132983195', '7_132996270', '7_132996666', '7_133001056', '7_133013069', '7_133013389']
+Chromosome: 7
+Number of positions: 14
+Genomic span: 118,455 bp (0.12 Mb)
+Combination frequency: 56.1%
+Max individual position frequency: 56.1%
+Criterion satisfied: 56.1% >= 56.1% = True
+Merged from original groups: [1, 4]
+56.1% (37 out of 66) of samples have the same sequence in super-group 11
+Number of different combinations in super-group 11: 3
+Top 3 most common genotype combinations for super-group 11:
+  1. [1,1,1,1,1,1,1,1,1,1,1,1,1,1] - 37 samples (56.1%)
+  2. [2,2,2,2,2,2,2,2,2,2,2,2,2,2] - 23 samples (34.8%)
+  3. [0,0,0,0,0,0,0,0,0,0,0,0,0,0] - 6 samples (9.1%)
+
+================================================================================
+
+Group 12: ['7_132901401']
+Chromosome: 7
+Number of positions: 1
+Genomic span: 0 bp (0.00 Mb)
+Combination frequency: 62.1%
+Max individual position frequency: 62.1%
+Criterion satisfied: 62.1% >= 62.1% = True
+62.1% (41 out of 66) of samples have the same sequence in group 12
+Number of different combinations in group 12: 3
+Top 3 most common genotype combinations for group 12:
+  1. [1] - 41 samples (62.1%)
+  2. [2] - 19 samples (28.8%)
+  3. [0] - 6 samples (9.1%)
+
+================================================================================
+
+Group 13: ['7_132915226', '7_132916527', '7_132917129', '7_132918543', '7_132921693', '7_132922411']
+Chromosome: 7
+Number of positions: 6
+Genomic span: 7,185 bp (0.01 Mb)
+Combination frequency: 57.6%
+Max individual position frequency: 57.6%
+Criterion satisfied: 57.6% >= 57.6% = True
+57.6% (38 out of 66) of samples have the same sequence in group 13
+Number of different combinations in group 13: 3
+Top 3 most common genotype combinations for group 13:
+  1. [1,1,1,1,1,1] - 38 samples (57.6%)
+  2. [2,2,2,2,2,2] - 22 samples (33.3%)
+  3. [0,0,0,0,0,0] - 6 samples (9.1%)
+
+================================================================================
+
+Group 14: ['8_16094489', '8_16095613']
+Chromosome: 8
+Number of positions: 2
+Genomic span: 1,124 bp (0.00 Mb)
+Combination frequency: 69.7%
+Max individual position frequency: 69.7%
+Criterion satisfied: 69.7% >= 69.7% = True
+69.7% (46 out of 66) of samples have the same sequence in group 14
+Number of different combinations in group 14: 3
+Top 3 most common genotype combinations for group 14:
+  1. [2,2] - 46 samples (69.7%)
+  2. [1,1] - 17 samples (25.8%)
+  3. [0,0] - 3 samples (4.5%)
+
+================================================================================
+
+Group 15: ['10_23220790', '10_23222768', '10_23224228', '10_23234926', '10_23240169', '10_23242315', '10_23258590', '10_23259098', '10_23276409', '10_23277116', '10_23282207', '10_23286320', '10_23297985', '10_23301091', '10_23302436', '10_23306604', '10_23309951', '10_23310146', '10_23310413', '10_23310629', '10_23313972', '10_23315589', '10_23317462', '10_23321343']
+Chromosome: 10
+Number of positions: 24
+Genomic span: 100,553 bp (0.10 Mb)
+Combination frequency: 65.2%
+Max individual position frequency: 65.2%
+Criterion satisfied: 65.2% >= 65.2% = True
+65.2% (43 out of 66) of samples have the same sequence in group 15
+Number of different combinations in group 15: 3
+Top 3 most common genotype combinations for group 15:
+  1. [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0] - 43 samples (65.2%)
+  2. [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1] - 17 samples (25.8%)
+  3. [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2] - 6 samples (9.1%)
+
+================================================================================
+
+Group 16: ['10_71516390']
+Chromosome: 10
+Number of positions: 1
+Genomic span: 0 bp (0.00 Mb)
+Combination frequency: 62.1%
+Max individual position frequency: 62.1%
+Criterion satisfied: 62.1% >= 62.1% = True
+62.1% (41 out of 66) of samples have the same sequence in group 16
+Number of different combinations in group 16: 3
+Top 3 most common genotype combinations for group 16:
+  1. [2] - 41 samples (62.1%)
+  2. [1] - 18 samples (27.3%)
+  3. [0] - 7 samples (10.6%)
+
+================================================================================
+
+Group 17: ['12_18496375']
+Chromosome: 12
+Number of positions: 1
+Genomic span: 0 bp (0.00 Mb)
+Combination frequency: 65.2%
+Max individual position frequency: 65.2%
+Criterion satisfied: 65.2% >= 65.2% = True
+65.2% (43 out of 66) of samples have the same sequence in group 17
+Number of different combinations in group 17: 3
+Top 3 most common genotype combinations for group 17:
+  1. [0] - 43 samples (65.2%)
+  2. [1] - 19 samples (28.8%)
+  3. [2] - 4 samples (6.1%)
+
+================================================================================
+
+Group 18: ['12_42739684']
+Chromosome: 12
+Number of positions: 1
+Genomic span: 0 bp (0.00 Mb)
+Combination frequency: 89.4%
+Max individual position frequency: 89.4%
+Criterion satisfied: 89.4% >= 89.4% = True
+89.4% (59 out of 66) of samples have the same sequence in group 18
+Number of different combinations in group 18: 2
+Top 3 most common genotype combinations for group 18:
+  1. [0] - 59 samples (89.4%)
+  2. [1] - 7 samples (10.6%)
+
+================================================================================
+
+Group 19: ['13_76295826']
+Chromosome: 13
+Number of positions: 1
+Genomic span: 0 bp (0.00 Mb)
+Combination frequency: 56.1%
+Max individual position frequency: 56.1%
+Criterion satisfied: 56.1% >= 56.1% = True
+56.1% (37 out of 66) of samples have the same sequence in group 19
+Number of different combinations in group 19: 3
+Top 3 most common genotype combinations for group 19:
+  1. [2] - 37 samples (56.1%)
+  2. [1] - 24 samples (36.4%)
+  3. [0] - 5 samples (7.6%)
+
+================================================================================
+
+Group 20: ['13_83148451']
+Chromosome: 13
+Number of positions: 1
+Genomic span: 0 bp (0.00 Mb)
+Combination frequency: 54.5%
+Max individual position frequency: 54.5%
+Criterion satisfied: 54.5% >= 54.5% = True
+54.5% (36 out of 66) of samples have the same sequence in group 20
+Number of different combinations in group 20: 3
+Top 3 most common genotype combinations for group 20:
+  1. [1] - 36 samples (54.5%)
+  2. [0] - 21 samples (31.8%)
+  3. [2] - 9 samples (13.6%)
+
+================================================================================
+
+Group 21: ['16_51003098']
+Chromosome: 16
+Number of positions: 1
+Genomic span: 0 bp (0.00 Mb)
+Combination frequency: 74.2%
+Max individual position frequency: 74.2%
+Criterion satisfied: 74.2% >= 74.2% = True
+74.2% (49 out of 66) of samples have the same sequence in group 21
+Number of different combinations in group 21: 2
+Top 3 most common genotype combinations for group 21:
+  1. [2] - 49 samples (74.2%)
+  2. [1] - 17 samples (25.8%)
+
+================================================================================
+
+Group 22: ['16_78029246', '16_78029456', '16_78031242', '16_78032472', '16_78032552', '16_78032850']
+Chromosome: 16
+Number of positions: 6
+Genomic span: 3,604 bp (0.00 Mb)
+Combination frequency: 63.6%
+Max individual position frequency: 63.6%
+Criterion satisfied: 63.6% >= 63.6% = True
+63.6% (42 out of 66) of samples have the same sequence in group 22
+Number of different combinations in group 22: 4
+Top 3 most common genotype combinations for group 22:
+  1. [2,2,2,2,2,2] - 42 samples (63.6%)
+  2. [1,1,1,1,1,1] - 16 samples (24.2%)
+  3. [0,0,0,0,0,0] - 7 samples (10.6%)
+
+================================================================================
+
+Group 23: ['16_78049252', '16_78049788', '16_78049845', '16_78049887', '16_78049922', '16_78050026']
+Chromosome: 16
+Number of positions: 6
+Genomic span: 774 bp (0.00 Mb)
+Combination frequency: 62.1%
+Max individual position frequency: 62.1%
+Criterion satisfied: 62.1% >= 62.1% = True
+62.1% (41 out of 66) of samples have the same sequence in group 23
+Number of different combinations in group 23: 3
+Top 3 most common genotype combinations for group 23:
+  1. [2,2,2,2,2,2] - 41 samples (62.1%)
+  2. [1,1,1,1,1,1] - 18 samples (27.3%)
+  3. [0,0,0,0,0,0] - 7 samples (10.6%)
+
+================================================================================
+
+Group 24: ['16_78056290']
+Chromosome: 16
+Number of positions: 1
+Genomic span: 0 bp (0.00 Mb)
+Combination frequency: 60.6%
+Max individual position frequency: 60.6%
+Criterion satisfied: 60.6% >= 60.6% = True
+60.6% (40 out of 66) of samples have the same sequence in group 24
+Number of different combinations in group 24: 3
+Top 3 most common genotype combinations for group 24:
+  1. [0] - 40 samples (60.6%)
+  2. [1] - 19 samples (28.8%)
+  3. [2] - 7 samples (10.6%)
+
+================================================================================
+
+Group 25: ['20_13101123', '20_13103294', '20_13103308', '20_13103438', '20_13103460']
+Chromosome: 20
+Number of positions: 5
+Genomic span: 2,337 bp (0.00 Mb)
+Combination frequency: 68.2%
+Max individual position frequency: 68.2%
+Criterion satisfied: 68.2% >= 68.2% = True
+68.2% (45 out of 66) of samples have the same sequence in group 25
+Number of different combinations in group 25: 3
+Top 3 most common genotype combinations for group 25:
+  1. [0,0,0,0,0] - 45 samples (68.2%)
+  2. [1,1,1,1,1] - 16 samples (24.2%)
+  3. [2,2,2,2,2] - 5 samples (7.6%)
+
+================================================================================
+
+Group 26: ['20_21019539']
+Chromosome: 20
+Number of positions: 1
+Genomic span: 0 bp (0.00 Mb)
+Combination frequency: 47.0%
+Max individual position frequency: 47.0%
+Criterion satisfied: 47.0% >= 47.0% = True
+47.0% (31 out of 66) of samples have the same sequence in group 26
+Number of different combinations in group 26: 3
+Top 3 most common genotype combinations for group 26:
+  1. [1] - 31 samples (47.0%)
+  2. [0] - 23 samples (34.8%)
+  3. [2] - 12 samples (18.2%)
+
+================================================================================
+
