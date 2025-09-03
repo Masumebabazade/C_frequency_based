@@ -201,7 +201,17 @@ static double **load_fst_Q(const char *fst_path) {
     FILE *fp=fopen(fst_path,"r");
     if(!fp){perror("open fst"); return NULL;}
     char line[1024];
-    fgets(line,sizeof(line),fp); // header
+    /* read and discard header */
+    if (!fgets(line, sizeof(line), fp)) {
+        fclose(fp);
+        for (int i = 0; i < n; ++i) {
+            free(hudson[i]);
+            free(Q[i]);
+        }
+        free(hudson);
+        free(Q);
+        return NULL;
+    }
     while(fgets(line,sizeof(line),fp)){
         char pop1[64], pop2[64];
         double val;
@@ -255,7 +265,8 @@ static InfoFile ***load_info_files(const char *dir_path) {
         char path[512]; snprintf(path,sizeof(path),"%s/%s",dir_path,ent->d_name);
         FILE *fp=fopen(path,"r"); if(!fp){perror("open inf"); continue;}
         char line[1024];
-        fgets(line,sizeof(line),fp); // header
+        /* discard header line */
+        if (!fgets(line, sizeof(line), fp)) { fclose(fp); continue; }
         int cap=1024; int nrow=0;
         uint64_t *positions=(uint64_t*)malloc(cap*sizeof(uint64_t));
         unsigned char *values=(unsigned char*)malloc(cap*sizeof(unsigned char));
